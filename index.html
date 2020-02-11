@@ -25,9 +25,29 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
-       <style type="text/css">
+    <style type="text/css">
     	@media only screen and (max-width: 600px) {
  	body, html { overflow-x:hidden!important; }
+.mnuBtn{
+	display: none;
+}
+
+
+.blink_text {
+	display: block!important;
+	color: red;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    z-index: 10;
+    animation-name: blinker;
+    white-space: nowrap;
+    animation-duration: 2s;
+    cursor: pointer;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
 
 .slider-text h1 {
     font-size: 40px;
@@ -73,7 +93,7 @@ width: 70%;
 	width: unset!important;
 }
 iframe{
-	width: -webkit-fill-available;
+	width: 380px!important;
 }
 .ftco-animate {
     opacity: 1;
@@ -100,9 +120,10 @@ iframe{
         .subscribe-form div {
          	margin-left: 25%;
          }
-.mobImg{
+.mobImg,.blink_text{
 	display: none;
 }
+
 
     </style>
   </head>
@@ -111,7 +132,8 @@ iframe{
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
 	      <a class="navbar-brand" target="_blank" href="http://tpgit.edu.in/"><span class="hed">TPGIT</span></a>
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	      <a href="https://forms.gle/Mojn2MhQuonh2MfM9" target="_blank" class="nav-link blink_text">Register Now!</a>
+	      <button class="navbar-toggler mnuBtn" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
@@ -130,7 +152,7 @@ iframe{
 	    </div>
 	  </nav>
     <!-- END nav -->
-        <div class="mobImg"><img src="images/bg_11.jpg" ></div>
+    <div class="mobImg"><img src="images/bg_11.jpg" ></div>
     <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_11.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
@@ -1294,7 +1316,9 @@ Preliminary level, conducted on 14-02-2020.</li>
           </div>
         </div>
         <div class="row d-flex">
-        	<div class="mapouter"><div class="gmap_canvas"><iframe width="1027" height="459" id="gmap_canvas" src="https://maps.google.com/maps?q=tpgit%20vellor&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/nordvpn-coupon-code/">nordvpn (red privada virtual)</a></div><style>.mapouter{position:relative;text-align:right;height:459px;width:1027px;}.gmap_canvas {overflow:hidden;background:none!important;height:459px;width:1027px;}</style></div>
+        	<div class="mapouter"><div class="gmap_canvas">
+        		<iframe width="1027" height="459" id="gmap_canvas" src="https://maps.google.com/maps?q=tpgit%20vellor&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        		<a href="https://www.embedgooglemap.net/blog/nordvpn-coupon-code/">nordvpn (red privada virtual)</a></div><style>.mapouter{position:relative;text-align:right;height:459px;width:1027px;}.gmap_canvas {overflow:hidden;background:none!important;height:459px;width:1027px;}</style></div>
          <!--  <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
               <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
@@ -1424,7 +1448,7 @@ Preliminary level, conducted on 14-02-2020.</li>
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">IGKNIGHTZ'2020</h2>
               <p></p>
-                           <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="https://twitter.com/hashtag/tpgit?src=hashtag_click&f=live" target="_blank"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="https://www.facebook.com/tpgitcollege/" target="_blank"><span class="icon-facebook"></span></a></li>
                 <li class="ftco-animate"><a href="https://www.instagram.com/explore/tags/tpgit/recent/" target="_blank"><span class="icon-instagram"></span></a></li>
